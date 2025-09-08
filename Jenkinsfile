@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Obteniendo el código más reciente desde GitHub...'
                 // ▼▼▼ ¡¡IMPORTANTE!! Cambia esta URL por la de tu repositorio ▼▼▼
-                git url: 'https://github.com/TU_USUARIO_DE_GITHUB/tu-repositorio.git', branch: 'main'
+                git url: 'https://github.com/JohanWEBOSS/Jenkins.git', branch: 'main'
             }
         }
         stage('2. Desplegar en Servidor Web') {
